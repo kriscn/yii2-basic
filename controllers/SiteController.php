@@ -122,4 +122,14 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    /**
+     * Test Page.
+     *
+     * @return string
+     */
+    public function actionMail()
+    {
+    	echo 'mail';
+    }
 }
